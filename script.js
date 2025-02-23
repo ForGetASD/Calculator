@@ -21,7 +21,7 @@ function resetLogic() {
 
     $("button[id*='operator']").each(function () {
         console.log($(this));
-        $(this).css("background-color", "lightgrey");
+        $(this).css("background-color", "white");
     });
 
     totalCountArray = [];
@@ -68,7 +68,7 @@ function operatorLogic() {
             $("button[id*='operator'")
                 .not(event.target)
                 .each(function () {
-                    $(this).css("background-color", "lightgrey");
+                    $(this).css("background-color", "white");
                 });
         }
     });
